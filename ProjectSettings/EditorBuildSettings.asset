@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 2333a813f094cff4a9fbfaa8f8becb80
   - enabled: 1
+    path: Assets/Scenes/Hallway.unity
+    guid: da89d2a54b0a16c4cbd824b81bc72e74
+  - enabled: 1
     path: Assets/Scenes/Playground.unity
     guid: df3541cbf880de54ca842dc5aa9bef74
   - enabled: 1
