@@ -17,4 +17,9 @@ public class ChangeSceneButton : MonoBehaviour
             Debug.Log("Scene not asigned");
         }
     }
+    public void QuitGame()
+    {
+        Debug.Log("closing game");
+        Application.Quit();
+    }
 }
