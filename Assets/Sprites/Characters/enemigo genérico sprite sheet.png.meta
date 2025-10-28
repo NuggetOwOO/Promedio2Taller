@@ -1,0 +1,702 @@
+fileFormatVersion: 2
+guid: 9e6d50d74a2c80a4cb3249fb968db55c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 367986807242407242
+    second: "enemigo gen\xE9rico sprite sheet_0"
+  - first:
+      213: -1360056063666311482
+    second: "enemigo gen\xE9rico sprite sheet_1"
+  - first:
+      213: -49399506782002224
+    second: "enemigo gen\xE9rico sprite sheet_2"
+  - first:
+      213: -2155455695611411411
+    second: "enemigo gen\xE9rico sprite sheet_3"
+  - first:
+      213: 2214040259163179964
+    second: "enemigo gen\xE9rico sprite sheet_4"
+  - first:
+      213: -1982520143297947362
+    second: "enemigo gen\xE9rico sprite sheet_5"
+  - first:
+      213: -2061095067583435747
+    second: "enemigo gen\xE9rico sprite sheet_6"
+  - first:
+      213: -7621750721738343778
+    second: "enemigo gen\xE9rico sprite sheet_7"
+  - first:
+      213: 7155226712164583572
+    second: "enemigo gen\xE9rico sprite sheet_8"
+  - first:
+      213: 3157426572895481821
+    second: "enemigo gen\xE9rico sprite sheet_9"
+  - first:
+      213: -8313568134398392823
+    second: "enemigo gen\xE9rico sprite sheet_10"
+  - first:
+      213: -4165098959041786172
+    second: "enemigo gen\xE9rico sprite sheet_11"
+  - first:
+      213: 6653646765133477825
+    second: "enemigo gen\xE9rico sprite sheet_12"
+  - first:
+      213: 7342735278666166272
+    second: "enemigo gen\xE9rico sprite sheet_13"
+  - first:
+      213: -2643415582194545519
+    second: "enemigo gen\xE9rico sprite sheet_14"
+  - first:
+      213: -6478456039833967570
+    second: "enemigo gen\xE9rico sprite sheet_15"
+  - first:
+      213: 6875805970880464861
+    second: "enemigo gen\xE9rico sprite sheet_16"
+  - first:
+      213: 615281577691984375
+    second: "enemigo gen\xE9rico sprite sheet_17"
+  - first:
+      213: 8350437702157008319
+    second: "enemigo gen\xE9rico sprite sheet_18"
+  - first:
+      213: 2276715873278379605
+    second: "enemigo gen\xE9rico sprite sheet_19"
+  - first:
+      213: 2109946204640973619
+    second: "enemigo gen\xE9rico sprite sheet_20"
+  - first:
+      213: -5844924038526799501
+    second: "enemigo gen\xE9rico sprite sheet_21"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 18
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "enemigo gen\xE9rico sprite sheet_0"
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 205
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4db6bf2d0a5b1500800000000000000
+      internalID: 367986807242407242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "enemigo gen\xE9rico sprite sheet_1"
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 205
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cead8a473c102de0800000000000000
+      internalID: -1360056063666311482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "enemigo gen\xE9rico sprite sheet_2"
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 205
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d3ed2a096f705ff0800000000000000
+      internalID: -49399506782002224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "enemigo gen\xE9rico sprite sheet_3"
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 205
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d244df507784612e0800000000000000
+      internalID: -2155455695611411411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "enemigo gen\xE9rico sprite sheet_4"
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 205
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbbc5dd92e9d9be10800000000000000
+      internalID: 2214040259163179964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "enemigo gen\xE9rico sprite sheet_5"
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 205
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e195baafe6cac74e0800000000000000
+      internalID: -1982520143297947362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "enemigo gen\xE9rico sprite sheet_6"
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 205
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1c2168c4f48563e0800000000000000
+      internalID: -2061095067583435747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "enemigo gen\xE9rico sprite sheet_7"
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 205
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9a7530b91a1a3690800000000000000
+      internalID: -7621750721738343778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "enemigo gen\xE9rico sprite sheet_8"
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 173
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 498c4f1e8c87c4360800000000000000
+      internalID: 7155226712164583572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "enemigo gen\xE9rico sprite sheet_9"
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 173
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddf60d14dbe61db20800000000000000
+      internalID: 3157426572895481821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "enemigo gen\xE9rico sprite sheet_10"
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 173
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9064d2534d540ac80800000000000000
+      internalID: -8313568134398392823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "enemigo gen\xE9rico sprite sheet_11"
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 173
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ce07fb70989236c0800000000000000
+      internalID: -4165098959041786172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "enemigo gen\xE9rico sprite sheet_12"
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 173
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c735b8fa70865c50800000000000000
+      internalID: 6653646765133477825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "enemigo gen\xE9rico sprite sheet_13"
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 173
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00030ac15d2a6e560800000000000000
+      internalID: 7342735278666166272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "enemigo gen\xE9rico sprite sheet_14"
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 173
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19ccf8d8883b05bd0800000000000000
+      internalID: -2643415582194545519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "enemigo gen\xE9rico sprite sheet_15"
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 173
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2466bc5e86e716a0800000000000000
+      internalID: -6478456039833967570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "enemigo gen\xE9rico sprite sheet_16"
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 141
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd707d6d915cb6f50800000000000000
+      internalID: 6875805970880464861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "enemigo gen\xE9rico sprite sheet_17"
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 141
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f13c23c55be98800800000000000000
+      internalID: 615281577691984375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "enemigo gen\xE9rico sprite sheet_18"
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 140
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbdf81cf8d6b2e370800000000000000
+      internalID: 8350437702157008319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "enemigo gen\xE9rico sprite sheet_19"
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 141
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55640413605889f10800000000000000
+      internalID: 2276715873278379605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "enemigo gen\xE9rico sprite sheet_20"
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 141
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3331fc6e4e8084d10800000000000000
+      internalID: 2109946204640973619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "enemigo gen\xE9rico sprite sheet_21"
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 141
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 371f7700e88a2eea0800000000000000
+      internalID: -5844924038526799501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "enemigo gen\xE9rico sprite sheet_0": 367986807242407242
+      "enemigo gen\xE9rico sprite sheet_1": -1360056063666311482
+      "enemigo gen\xE9rico sprite sheet_10": -8313568134398392823
+      "enemigo gen\xE9rico sprite sheet_11": -4165098959041786172
+      "enemigo gen\xE9rico sprite sheet_12": 6653646765133477825
+      "enemigo gen\xE9rico sprite sheet_13": 7342735278666166272
+      "enemigo gen\xE9rico sprite sheet_14": -2643415582194545519
+      "enemigo gen\xE9rico sprite sheet_15": -6478456039833967570
+      "enemigo gen\xE9rico sprite sheet_16": 6875805970880464861
+      "enemigo gen\xE9rico sprite sheet_17": 615281577691984375
+      "enemigo gen\xE9rico sprite sheet_18": 8350437702157008319
+      "enemigo gen\xE9rico sprite sheet_19": 2276715873278379605
+      "enemigo gen\xE9rico sprite sheet_2": -49399506782002224
+      "enemigo gen\xE9rico sprite sheet_20": 2109946204640973619
+      "enemigo gen\xE9rico sprite sheet_21": -5844924038526799501
+      "enemigo gen\xE9rico sprite sheet_3": -2155455695611411411
+      "enemigo gen\xE9rico sprite sheet_4": 2214040259163179964
+      "enemigo gen\xE9rico sprite sheet_5": -1982520143297947362
+      "enemigo gen\xE9rico sprite sheet_6": -2061095067583435747
+      "enemigo gen\xE9rico sprite sheet_7": -7621750721738343778
+      "enemigo gen\xE9rico sprite sheet_8": 7155226712164583572
+      "enemigo gen\xE9rico sprite sheet_9": 3157426572895481821
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
