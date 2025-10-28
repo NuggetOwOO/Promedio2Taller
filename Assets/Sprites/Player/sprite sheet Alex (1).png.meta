@@ -1,0 +1,975 @@
+fileFormatVersion: 2
+guid: 4d823ea9b9f917742a0490031dcf4264
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6864864967043378387
+    second: sprite sheet Alex (1)_0
+  - first:
+      213: 2223332105358392370
+    second: sprite sheet Alex (1)_1
+  - first:
+      213: 6638286475188985851
+    second: sprite sheet Alex (1)_2
+  - first:
+      213: 4844108298137251491
+    second: sprite sheet Alex (1)_3
+  - first:
+      213: -2132248145961248490
+    second: sprite sheet Alex (1)_4
+  - first:
+      213: 2518337899601722132
+    second: sprite sheet Alex (1)_5
+  - first:
+      213: 6631336787635376499
+    second: sprite sheet Alex (1)_6
+  - first:
+      213: -6946790309363573824
+    second: sprite sheet Alex (1)_7
+  - first:
+      213: 8570256529268362850
+    second: sprite sheet Alex (1)_8
+  - first:
+      213: 1789457482178577315
+    second: sprite sheet Alex (1)_9
+  - first:
+      213: -875275800202496561
+    second: sprite sheet Alex (1)_10
+  - first:
+      213: 8572638846274787139
+    second: sprite sheet Alex (1)_11
+  - first:
+      213: 3950769088611774011
+    second: sprite sheet Alex (1)_12
+  - first:
+      213: -6273305114099123046
+    second: sprite sheet Alex (1)_13
+  - first:
+      213: -8210752324353055085
+    second: sprite sheet Alex (1)_14
+  - first:
+      213: 6712868381783567863
+    second: sprite sheet Alex (1)_15
+  - first:
+      213: 8510800945336344959
+    second: sprite sheet Alex (1)_16
+  - first:
+      213: -3176998137591521201
+    second: sprite sheet Alex (1)_17
+  - first:
+      213: -1251871735061423228
+    second: sprite sheet Alex (1)_18
+  - first:
+      213: 5998543670843808895
+    second: sprite sheet Alex (1)_19
+  - first:
+      213: 8201667735027008628
+    second: sprite sheet Alex (1)_20
+  - first:
+      213: -3074599292727532653
+    second: sprite sheet Alex (1)_21
+  - first:
+      213: -4237415388796895913
+    second: sprite sheet Alex (1)_22
+  - first:
+      213: -7124153687851800415
+    second: sprite sheet Alex (1)_23
+  - first:
+      213: -1832031929913858680
+    second: sprite sheet Alex (1)_24
+  - first:
+      213: -6092542775095886801
+    second: sprite sheet Alex (1)_25
+  - first:
+      213: 8242331444911388843
+    second: sprite sheet Alex (1)_26
+  - first:
+      213: 1103783696129731530
+    second: sprite sheet Alex (1)_27
+  - first:
+      213: -5077726002402782187
+    second: sprite sheet Alex (1)_28
+  - first:
+      213: 6962950686426875571
+    second: sprite sheet Alex (1)_29
+  - first:
+      213: 8285535098699619326
+    second: sprite sheet Alex (1)_30
+  - first:
+      213: 7656410268563061510
+    second: sprite sheet Alex (1)_31
+  - first:
+      213: 8520785421285546359
+    second: sprite sheet Alex (1)_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 26
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sprite sheet Alex (1)_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 205
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dce4afd056e44f50800000000000000
+      internalID: 6864864967043378387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet Alex (1)_1
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 205
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23cbb9525ccdade10800000000000000
+      internalID: 2223332105358392370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet Alex (1)_2
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 205
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bff5be6c06eef1c50800000000000000
+      internalID: 6638286475188985851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet Alex (1)_3
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 205
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ae2efbf4dab93340800000000000000
+      internalID: 4844108298137251491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet Alex (1)_4
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 205
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6199efebb9bb862e0800000000000000
+      internalID: -2132248145961248490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet Alex (1)_5
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 205
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41bf92a1afee2f220800000000000000
+      internalID: 2518337899601722132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet Alex (1)_6
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 205
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3719cfc8cad370c50800000000000000
+      internalID: 6631336787635376499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet Alex (1)_7
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 205
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cb1241f40b089f90800000000000000
+      internalID: -6946790309363573824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet Alex (1)_8
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 173
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26e430df7eaafe670800000000000000
+      internalID: 8570256529268362850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet Alex (1)_9
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 173
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a34bed591e65d810800000000000000
+      internalID: 1789457482178577315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet Alex (1)_10
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 173
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc53f601c456ad3f0800000000000000
+      internalID: -875275800202496561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet Alex (1)_11
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 173
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3475ce36c9128f670800000000000000
+      internalID: 8572638846274787139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet Alex (1)_12
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 173
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3e6c44dd83f3d630800000000000000
+      internalID: 3950769088611774011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet Alex (1)_13
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 173
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9cfa727c3eb0f8a0800000000000000
+      internalID: -6273305114099123046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet Alex (1)_14
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 141
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3962930734c8d0e80800000000000000
+      internalID: -8210752324353055085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet Alex (1)_15
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 173
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fd29281a36e82d50800000000000000
+      internalID: 6712868381783567863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet Alex (1)_16
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 173
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f71e4dc1e507c1670800000000000000
+      internalID: 8510800945336344959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet Alex (1)_17
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 141
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f40a7ccb60909e3d0800000000000000
+      internalID: -3176998137591521201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet Alex (1)_18
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 141
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48bdf472a4570aee0800000000000000
+      internalID: -1251871735061423228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet Alex (1)_19
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 141
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7c105edfab1f3350800000000000000
+      internalID: 5998543670843808895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet Alex (1)_20
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 141
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4744118c95d22d170800000000000000
+      internalID: 8201667735027008628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet Alex (1)_21
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 141
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 393ee42bb34d455d0800000000000000
+      internalID: -3074599292727532653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet Alex (1)_22
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 141
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75dbcf8972da135c0800000000000000
+      internalID: -4237415388796895913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet Alex (1)_23
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 141
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a8ed4e57fbe12d90800000000000000
+      internalID: -7124153687851800415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet Alex (1)_24
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 109
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 885af409aa05396e0800000000000000
+      internalID: -1832031929913858680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet Alex (1)_25
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 109
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2c798f20a0f27ba0800000000000000
+      internalID: -6092542775095886801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet Alex (1)_26
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 109
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba8b9f687c4a26270800000000000000
+      internalID: 8242331444911388843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet Alex (1)_27
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 109
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acb2eac6c6d615f00800000000000000
+      internalID: 1103783696129731530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet Alex (1)_28
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 109
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51494009a1b4889b0800000000000000
+      internalID: -5077726002402782187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet Alex (1)_29
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 109
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b6490d02ce51a060800000000000000
+      internalID: 6962950686426875571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet Alex (1)_30
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 109
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efb950c06422cf270800000000000000
+      internalID: 8285535098699619326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet Alex (1)_31
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 109
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60bba58e298014a60800000000000000
+      internalID: 7656410268563061510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet Alex (1)_32
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 77
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7795d031239ef3670800000000000000
+      internalID: 8520785421285546359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      sprite sheet Alex (1)_0: 6864864967043378387
+      sprite sheet Alex (1)_1: 2223332105358392370
+      sprite sheet Alex (1)_10: -875275800202496561
+      sprite sheet Alex (1)_11: 8572638846274787139
+      sprite sheet Alex (1)_12: 3950769088611774011
+      sprite sheet Alex (1)_13: -6273305114099123046
+      sprite sheet Alex (1)_14: -8210752324353055085
+      sprite sheet Alex (1)_15: 6712868381783567863
+      sprite sheet Alex (1)_16: 8510800945336344959
+      sprite sheet Alex (1)_17: -3176998137591521201
+      sprite sheet Alex (1)_18: -1251871735061423228
+      sprite sheet Alex (1)_19: 5998543670843808895
+      sprite sheet Alex (1)_2: 6638286475188985851
+      sprite sheet Alex (1)_20: 8201667735027008628
+      sprite sheet Alex (1)_21: -3074599292727532653
+      sprite sheet Alex (1)_22: -4237415388796895913
+      sprite sheet Alex (1)_23: -7124153687851800415
+      sprite sheet Alex (1)_24: -1832031929913858680
+      sprite sheet Alex (1)_25: -6092542775095886801
+      sprite sheet Alex (1)_26: 8242331444911388843
+      sprite sheet Alex (1)_27: 1103783696129731530
+      sprite sheet Alex (1)_28: -5077726002402782187
+      sprite sheet Alex (1)_29: 6962950686426875571
+      sprite sheet Alex (1)_3: 4844108298137251491
+      sprite sheet Alex (1)_30: 8285535098699619326
+      sprite sheet Alex (1)_31: 7656410268563061510
+      sprite sheet Alex (1)_32: 8520785421285546359
+      sprite sheet Alex (1)_4: -2132248145961248490
+      sprite sheet Alex (1)_5: 2518337899601722132
+      sprite sheet Alex (1)_6: 6631336787635376499
+      sprite sheet Alex (1)_7: -6946790309363573824
+      sprite sheet Alex (1)_8: 8570256529268362850
+      sprite sheet Alex (1)_9: 1789457482178577315
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
