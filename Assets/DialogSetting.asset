@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c952eb458ddccf41a9a48b86fc5abfe, type: 3}
+  m_Name: DialogSetting
+  m_EditorClassIdentifier: 
+  charactersPerSecond: 20
+  turboCharactersPerSecond: 100
+  character1Default: {fileID: -8044779376796056498, guid: 096af51d2f2ee4849987ff002a493b60, type: 3}
+  character2Default: {fileID: 5406292741877215531, guid: 27c85fe33df57244ba31dd7abe275652, type: 3}
+  dialogs:
+  - characterID: 0
+    characterSprite: {fileID: 0}
+    dialogText: 
+  dialogEndDelay: 1
