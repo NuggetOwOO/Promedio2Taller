@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 096af51d2f2ee4849987ff002a493b60
+guid: 27c85fe33df57244ba31dd7abe275652
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8044779376796056498
-    second: Alex Serio boca abierta_0
+      213: 5406292741877215531
+    second: miku chibo_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 350
+  spritePixelsToUnits: 300
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Alex Serio boca abierta_0
+      name: miku chibo_0
       rect:
         serializedVersion: 2
-        x: 737
-        y: 0
-        width: 1106
-        height: 3394
+        x: 169
+        y: 683
+        width: 2069
+        height: 2596
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e44cea5a7c33b5090800000000000000
-      internalID: -8044779376796056498
+      spriteID: b213d5fda92070b40800000000000000
+      internalID: 5406292741877215531
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Alex Serio boca abierta_0: -8044779376796056498
+      miku chibo_0: 5406292741877215531
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
