@@ -63,8 +63,8 @@ public class DialogSceneController : MonoBehaviour
     void ShowChoices()
     {
         choicePanel.SetActive(true);
-        choice1Text.text = "Opción 1";
-        choice2Text.text = "Opción 2";
+        choice1Text.text = "Help Miku";
+        choice2Text.text = "Nor help Miku";
 
         choice1Button.onClick.RemoveAllListeners();
         choice2Button.onClick.RemoveAllListeners();
