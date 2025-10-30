@@ -39,7 +39,7 @@ public class PlayerCombat : MonoBehaviour
 
         GameObject bullet = Instantiate(bulletPrefab, firepoint.position, Quaternion.identity);
 
-        float angle = Mathf.Atan2 (dir.x, dir.y) * Mathf.Rad2Deg;
+        float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
         bullet.transform.rotation = Quaternion.Euler(0f, 0f, angle);
 
         Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
