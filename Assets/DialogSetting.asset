@@ -17,7 +17,10 @@ MonoBehaviour:
   character1Default: {fileID: -8044779376796056498, guid: 096af51d2f2ee4849987ff002a493b60, type: 3}
   character2Default: {fileID: 5406292741877215531, guid: 27c85fe33df57244ba31dd7abe275652, type: 3}
   dialogs:
-  - characterID: 0
-    characterSprite: {fileID: 0}
-    dialogText: 
+  - characterID: 2
+    characterSprite: {fileID: 5406292741877215531, guid: 27c85fe33df57244ba31dd7abe275652, type: 3}
+    dialogText: "AY\xDADAMEEE, ME EST\xC1N HACIENDO BULLYING"
+  - characterID: 1
+    characterSprite: {fileID: -8044779376796056498, guid: 096af51d2f2ee4849987ff002a493b60, type: 3}
+    dialogText: Uhh....
   dialogEndDelay: 1

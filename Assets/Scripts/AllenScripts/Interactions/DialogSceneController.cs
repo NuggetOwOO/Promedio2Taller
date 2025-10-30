@@ -1,61 +1,93 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class DialogSceneController : MonoBehaviour
 {
-    [Header("UI Elements")]
-    [SerializeField] private Image character1;
-    [SerializeField] private Image character2;
-    [SerializeField] private DialogController dialogController;
-    [SerializeField] private Button skipButton;
+    [System.Serializable]
+    public class DialogLine
+    {
+        [TextArea(2, 5)]
+        public string text;
+    }
 
-    [Header("Dialog Settings")]
-    [SerializeField] private DialogSetting dialogSetting;
+    [Header("UI References")]
+    public DialogController dialogController;
+    public DialogSetting dialogSetting;
+    public GameObject choicePanel;
+    public Button choice1Button;
+    public Button choice2Button;
+    public TMP_Text choice1Text;
+    public TMP_Text choice2Text;
 
+    [Header("Dialog Data")]
+    public DialogLine[] initialDialog;
+    public DialogLine[] choice1Dialog;
+    public DialogLine[] choice2Dialog;
 
-    private int currentDialogIndex = 0;
+    private int currentIndex = 0;
+    private DialogLine[] currentDialog;
 
     private void Start()
     {
-        character1.sprite = dialogSetting.character1Default;
-        character2.sprite = dialogSetting.character2Default;
-        ShowDialog();
-        skipButton.onClick.AddListener(OnSkip);
-    }
-
-    private void OnSkip()
-    {
-        dialogController.SkipDialog();
-        currentDialogIndex = dialogSetting.dialogs.Count;
-        Destroy(gameObject);
+        choicePanel.SetActive(false);
+        currentDialog = initialDialog;
+        ShowNextLine();
     }
 
     public void OnDialogFinish()
     {
-        currentDialogIndex++;
-        if (currentDialogIndex < dialogSetting.dialogs.Count)
+        currentIndex++;
+        if (currentIndex < currentDialog.Length)
         {
-            ShowDialog();
+            ShowNextLine();
+        }
+        else
+        {
+            if (currentDialog == initialDialog)
+            {
+                ShowChoices();
+            }
+            else
+            {
+                EndDialogSequence();
+            }
         }
     }
 
-    private void ShowDialog()
+    void ShowNextLine()
     {
-        Dialog currentDialog = dialogSetting.dialogs[currentDialogIndex];
-        if (currentDialog.characterID == 1)
-        {
-            character1.color = Color.white;
-            character2.color = new Color(0.4f, 0.4f, 0.4f);
-            character1.sprite = currentDialog.characterSprite;
-        }
-        else if (currentDialog.characterID == 2)
-        {
-            character1.color = new Color(0.4f, 0.4f, 0.4f);
-            character2.color = Color.white;
-            character2.sprite = currentDialog.characterSprite;
-        }
-
-        dialogController.ShowDialog(this, currentDialog.dialogText, dialogSetting);
+        dialogController.ShowDialog(this, currentDialog[currentIndex].text, dialogSetting);
     }
 
+    void ShowChoices()
+    {
+        choicePanel.SetActive(true);
+        choice1Text.text = "Opción 1";
+        choice2Text.text = "Opción 2";
+
+        choice1Button.onClick.RemoveAllListeners();
+        choice2Button.onClick.RemoveAllListeners();
+
+        choice1Button.onClick.AddListener(() =>
+        {
+            choicePanel.SetActive(false);
+            currentDialog = choice1Dialog;
+            currentIndex = 0;
+            ShowNextLine();
+        });
+
+        choice2Button.onClick.AddListener(() =>
+        {
+            choicePanel.SetActive(false);
+            currentDialog = choice2Dialog;
+            currentIndex = 0;
+            ShowNextLine();
+        });
+    }
+
+    void EndDialogSequence()
+    {
+        Debug.Log("Fin del diálogo.");
+    }
 }
