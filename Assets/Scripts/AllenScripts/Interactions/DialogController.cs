@@ -10,6 +10,7 @@ public class DialogController : MonoBehaviour
     private float currentCharactersPerSecond;
     private DialogSetting dialogSetting;
     private bool isTurbo;
+    private Coroutine typingCoroutine;
 
     private void Awake()
     {
@@ -18,52 +19,71 @@ public class DialogController : MonoBehaviour
 
     public void ShowDialog(DialogSceneController sceneController, string dialog, DialogSetting dialogSetting)
     {
+        if (!gameObject.activeInHierarchy)
+            gameObject.SetActive(true);
+
         currentCharactersPerSecond = dialogSetting.charactersPerSecond;
         this.dialogSetting = dialogSetting;
         this.sceneController = sceneController;
         currentDialog = dialog;
-        StopAllCoroutines();
-        StartCoroutine(ShowText());
+
+        if (typingCoroutine != null)
+            StopCoroutine(typingCoroutine);
+
+        typingCoroutine = StartCoroutine(ShowText());
     }
 
-    IEnumerator ShowText()
+    private IEnumerator ShowText()
     {
+        dialogUIText.text = "";
         int i = 0;
+
         while (i <= currentDialog.Length)
         {
-            dialogUIText.text = string.Empty;
             dialogUIText.text = currentDialog.Substring(0, i);
+
             if (i < currentDialog.Length)
-            {
-                dialogUIText.text += $"<color=#0000>{currentDialog.Substring(i)}</color>";
-            }
+                dialogUIText.text += $"<color=#00000000>{currentDialog.Substring(i)}</color>";
+
             i++;
-            yield return new WaitForSeconds(1 / currentCharactersPerSecond);
+            yield return new WaitForSeconds(1f / currentCharactersPerSecond);
         }
+
         if (!isTurbo)
-        {
             yield return new WaitForSeconds(dialogSetting.dialogEndDelay);
-        }
+
         EndDialog();
     }
 
     private void EndDialog()
     {
-        StopAllCoroutines();
+        if (typingCoroutine != null)
+            StopCoroutine(typingCoroutine);
+
+        typingCoroutine = null;
+
         if (sceneController != null)
-        {
             sceneController.OnDialogFinish();
-        }
     }
 
-    public void SkipDialog()
+    public void SkipCurrentLine()
     {
-        StopAllCoroutines();
-        dialogUIText.text = "";
+        if (typingCoroutine != null)
+        {
+            StopCoroutine(typingCoroutine);
+            typingCoroutine = null;
+        }
+
+        // Mostrar toda la línea 
+        dialogUIText.text = currentDialog;
+
+        EndDialog();
     }
 
     private void Update()
     {
+        if (dialogSetting == null) return;
+
         if (Input.GetKey(KeyCode.Space))
         {
             isTurbo = true;

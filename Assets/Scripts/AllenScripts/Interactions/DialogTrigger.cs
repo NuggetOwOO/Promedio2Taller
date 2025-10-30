@@ -2,17 +2,16 @@ using UnityEngine;
 
 public class DialogTrigger : MonoBehaviour
 {
-    [Header("Reference to the Dialog Scene Controller")]
-    [SerializeField] private DialogSceneController dialogSceneController;
-
-    private bool hasActivated = false;
+    public GameObject dialogCanvas;
+    public DialogSceneController dialogScene;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (!hasActivated && other.CompareTag("Player"))
+        if (other.CompareTag("Player"))
         {
-            hasActivated = true;
-            dialogSceneController.gameObject.SetActive(true);
+            dialogCanvas.SetActive(true);
+            dialogScene.StartDialog();
+            gameObject.SetActive(false);
         }
     }
 }

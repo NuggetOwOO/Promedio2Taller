@@ -13,6 +13,7 @@ public class PlayerMovement : MonoBehaviour
     {
         DontDestroyOnLoad(gameObject);
     }
+
     void Start()
     {
         playerRb = GetComponent<Rigidbody2D>();
@@ -43,5 +44,13 @@ public class PlayerMovement : MonoBehaviour
         if (!CanMove) return;
 
         playerRb.MovePosition(playerRb.position + MoveInput * speed * Time.fixedDeltaTime);
+    }
+
+    public void SetCanMove(bool value)
+    {
+        CanMove = value;
+
+        if (!value)
+            playerAnimator.SetFloat("Speed", 0);
     }
 }

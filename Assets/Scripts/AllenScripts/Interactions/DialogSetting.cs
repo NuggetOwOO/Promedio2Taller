@@ -1,13 +1,14 @@
-using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "DialogSetting", menuName = "Dialog System/Dialog Setting")]
+[CreateAssetMenu(fileName = "DialogSetting", menuName = "Dialog/Setting")]
 public class DialogSetting : ScriptableObject
 {
-    [Header("Speed Settings")]
+    [Header("Dialog Speed Settings")]
     public float charactersPerSecond = 30f;
     public float turboCharactersPerSecond = 100f;
+    public float dialogEndDelay = 0.5f;
 
-    [Header("Timing")]
-    public float dialogEndDelay = 1f;
+    [Header("Character Portraits")]
+    public Sprite character1Default;
+    public Sprite character2Default;
 }
